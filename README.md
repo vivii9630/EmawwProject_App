@@ -23,15 +23,16 @@ The following are the tech stack with which the project was completed.
 # How to run the app
 
 <p>The app could run at cli with flask as well as with docker.</p>
-<p>
+
 ### Method-1: With flask app server. 
+<p>
 set FLASK_APP=sample.py
 flask run : (Running on http://127.0.0.1:5000/ (Press CTRL+C to quit))
 </p>
 
-<p>
-### Method-2: We could also create docker containers.
 
+### Method-2: As a docker container.
+<p>
 To build docker images.
 docker image build -t sample . 
 
