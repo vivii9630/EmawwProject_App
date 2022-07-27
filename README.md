@@ -37,13 +37,17 @@ The app could run at cli with flask as well as with docker.
 
 ### Method-2: As a docker container.
 <p><br> </br>
+
 To build docker images.<br> </br>
+
 ***docker image build -t sample .***
 <br> </br>
 
-Step-2: To see docker images.<br> </br>
+Step-2: To see docker images.
+<br> </br>
 ***docker image ls***
 <br> </br>
+
 Step-3: To run docker and to check docker containerID.<br> </br>
 ***docker run -p 5000:5000 -d sample***
 <br> </br>
