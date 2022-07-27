@@ -26,10 +26,10 @@ The app could run at cli with flask as well as with docker.
 
 ### Method-1: With flask app server. 
 <p><br> </br>
-<ul>**set FLASK_APP=sample.py** </ul><br> </br>
-<ul>**flask run** : (Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)) </ul>
+ **set FLASK_APP=sample.py** <br> </br>
+**flask run** : (Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)) 
 </p>
-
+<br> </br>
 
 ### Method-2: As a docker container.
 <p><br> </br>
