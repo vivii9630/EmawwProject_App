@@ -26,23 +26,23 @@ The app could run at cli with flask as well as with docker.
 
 ### Method-1: With flask app server. 
 <p><br> </br>
-set FLASK_APP=sample.py <br> </br>
-flask run : (Running on http://127.0.0.1:5000/ (Press CTRL+C to quit))
+<ul>**set FLASK_APP=sample.py** </ul><br> </br>
+<ul>**flask run** : (Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)) </ul>
 </p>
 
 
 ### Method-2: As a docker container.
 <p><br> </br>
-To build docker images.
-docker image build -t sample . <br> </br>
+To build docker images.<br> </br>
+**docker image build -t sample .** <br> </br>
 
 Step-2: To see docker images.<br> </br>
-docker image ls
+**docker image ls**
 <br> </br>
 Step-3: To run docker and to check docker containerID.<br> </br>
-docker run -p 5000:5000 -d sample
+**docker run -p 5000:5000 -d sample**
 <br> </br>
 Step-4: To run <br> </br>
-docker-compose up : The following server should fireup - Running on http://172.20.0.2:5000/ (Press CTRL+C to quit).
+**docker-compose up** : The following server should fireup - Running on http://172.20.0.2:5000/ (Press CTRL+C to quit).
 
 </p>
