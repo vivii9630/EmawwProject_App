@@ -25,24 +25,24 @@ The following are the tech stack with which the project was completed.
 The app could run at cli with flask as well as with docker.
 
 ### Method-1: With flask app server. 
-<p>
-set FLASK_APP=sample.py
+<p><br> </br>
+set FLASK_APP=sample.py <br> </br>
 flask run : (Running on http://127.0.0.1:5000/ (Press CTRL+C to quit))
 </p>
 
 
 ### Method-2: As a docker container.
-<p>
+<p><br> </br>
 To build docker images.
-docker image build -t sample . 
+docker image build -t sample . <br> </br>
 
-Step-2: To see docker images.
+Step-2: To see docker images.<br> </br>
 docker image ls
-
-Step-3: To run docker and to check docker containerID.
+<br> </br>
+Step-3: To run docker and to check docker containerID.<br> </br>
 docker run -p 5000:5000 -d sample
-
-Step-4: To run
+<br> </br>
+Step-4: To run <br> </br>
 docker-compose up : The following server should fireup - Running on http://172.20.0.2:5000/ (Press CTRL+C to quit).
 
 </p>
