@@ -14,11 +14,11 @@ Exported data.
 # Built with
 <p>
 The following are the tech stack with which the project was completed.
-<ol>flask</ol>
--element tree
--redis
--HTML
--Docker
+<ul>flask</ul>
+<ul>element tree</ul>
+<ul>redis</ul>
+<ul>HTML</ul>
+<ul>Docker</ul>
 </p>
 # How to run the app
 
