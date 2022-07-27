@@ -14,31 +14,34 @@ Exported data.
 # Built with
 <p>
 The following are the tech stack with which the project was completed.
-<ul>flask</ul>
-<ul>element tree</ul>
-<ul>redis</ul>
-<ul>HTML</ul>
-<ul>Docker</ul>
+<ul>- flask</ul>
+<ul>- element tree</ul>
+<ul>- redis</ul>
+<ul>- HTML</ul>
+<ul>- Docker</ul>
 </p>
 # How to run the app
 
-The app could run at cli with flask as well as with docker.
-Method-1: With flask app server. 
+<p>The app could run at cli with flask as well as with docker.</p>
+<p>
+### Method-1: With flask app server. 
+set FLASK_APP=sample.py
+flask run : (Running on http://127.0.0.1:5000/ (Press CTRL+C to quit))
+</p>
 
-### set FLASK_APP=sample.py
-### flask run : (Running on http://127.0.0.1:5000/ (Press CTRL+C to quit))
-
-Method-2: We could also create docker containers.
+<p>
+### Method-2: We could also create docker containers.
 
 To build docker images.
-### docker image build -t sample . 
+docker image build -t sample . 
 
 Step-2: To see docker images.
-### docker image ls
+docker image ls
 
 Step-3: To run docker and to check docker containerID.
-### docker run -p 5000:5000 -d sample
+docker run -p 5000:5000 -d sample
 
 Step-4: To run
-### docker-compose up : The following server should fireup - Running on http://172.20.0.2:5000/ (Press CTRL+C to quit).
+docker-compose up : The following server should fireup - Running on http://172.20.0.2:5000/ (Press CTRL+C to quit).
 
+</p>
