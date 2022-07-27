@@ -11,16 +11,16 @@ Exported data.
 
 ![](data.png)
 
-#**Built with**
-
+# Built with
+<p>
 The following are the tech stack with which the project was completed.
--flask
+<ol>flask</ol>
 -element tree
 -redis
 -HTML
 -Docker
-
-#**How to run the app**
+</p>
+# How to run the app
 
 The app could run at cli with flask as well as with docker.
 Method-1: With flask app server. 
