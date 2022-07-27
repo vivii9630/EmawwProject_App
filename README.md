@@ -20,9 +20,9 @@ The following are the tech stack with which the project was completed.
 <ul>- HTML</ul>
 <ul>- Docker</ul>
 </p>
-# How to run the app
 
-<p>The app could run at cli with flask as well as with docker.</p>
+# How to run the app
+The app could run at cli with flask as well as with docker.
 
 ### Method-1: With flask app server. 
 <p>
